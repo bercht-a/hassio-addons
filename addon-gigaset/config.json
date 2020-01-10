@@ -1,9 +1,9 @@
 {
-    "name": "Gigaset-Elements proxy",
-    "version": "1.2",
+    "name": "Gigaset-Elements proxy (fork)",
+    "version": "1.0",
     "slug": "gigaset",
     "description": "A simple web and MQTT bridge to gigaset-elements APIs",
-    "url": "https://github.com/ycardon/gigaset-elements-proxy",
+    "url": "https://github.com/bercht-a/gigaset-elements-proxy",
 
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "system",
@@ -31,7 +31,8 @@
             "username": null,
             "password": null
         },
-        "allow_unknown_events": false
+        "allow_unknown_events": false,
+		"basestation_id": "id"
     },
     "schema": {
         "email": "email",
@@ -43,6 +44,7 @@
             "username": "str?",
             "password": "str?"
         },
-        "allow_unknown_events": "bool"
+        "allow_unknown_events": "bool",
+		"basestation_id": "str"
     }
 }

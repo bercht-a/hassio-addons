@@ -6,7 +6,7 @@ ENV LANG C.UTF-8
 # install nodejs and gigaset-elements-proxy
 WORKDIR /usr/src
 RUN apk add --no-cache git jq nodejs nodejs-npm \
-    && git clone https://github.com/ycardon/gigaset-elements-proxy \
+    && git clone https://github.com/bercht-a/gigaset-elements-proxy \
     && cd gigaset-elements-proxy \
     && npm install
 
