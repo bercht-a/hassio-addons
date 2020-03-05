@@ -1,6 +1,6 @@
 {
     "name": "Gigaset-Elements proxy (fork)",
-    "version": "1.1",
+    "version": "1.2",
     "slug": "gigaset",
     "description": "A simple web and MQTT bridge to gigaset-elements APIs",
     "url": "https://github.com/bercht-a/gigaset-elements-proxy",
